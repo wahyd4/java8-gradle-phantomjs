@@ -3,7 +3,7 @@ FROM frekele/gradle:3.1-jdk8u101
 MAINTAINER Wahyd4
 
 # 1. Install runtime dependencies
-# 2. Install official PhantomJS release
+# 2. Install official PhantomJS release 
 # 3. Clean up
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
